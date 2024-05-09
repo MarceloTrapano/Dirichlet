@@ -6,7 +6,7 @@ import time
 
 class Dirichlett:
     '''
-    Solves second order differencial equations with Dirichlett boundary conditions. 
+    Solves second order differencial equations with Dirichlet boundary conditions. 
     '''
     def __init__(self, alpha, beta, gamma, f, solveType : bool=False) -> None:
         '''
